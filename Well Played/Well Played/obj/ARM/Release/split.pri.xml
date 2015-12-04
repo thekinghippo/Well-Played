@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="62929UnlimitedCodeWorks.WellPlayed" version="1.0" primary="true">
+		<Qualifiers>
+			<AlternateForm>UNPLATED</AlternateForm>
+			<Scale>200</Scale>
+			<TargetSize>24</TargetSize>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="AdMediator.config" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/AdMediator.config">
+				<Candidate type="Path">
+					<Value>AdMediator.config</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="App.xbf" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/App.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Champion.xbf" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Champion.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Champions.xbf" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Champions.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Home.xbf" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Home.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Item.xbf" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Item.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Items.xbf" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Items.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="LookUp.xbf" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/LookUp.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MapDetails.xbf" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/MapDetails.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Maps.xbf" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Maps.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Options.xbf" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Options.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Shell.xbf" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Shell.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SignIn.xbf" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/SignIn.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Spells.xbf" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Spells.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Summoner.xbf" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Summoner.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SummonerLookUp.xbf" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/SummonerLookUp.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Well Played.xr.xml" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Well Played.xr.xml">
+				<Candidate type="Path">
+					<Value>Well Played.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="Elise_LookUp.jpg" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Assets/Elise_LookUp.jpg">
+					<Candidate type="Path">
+						<Value>Assets\Elise_LookUp.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Heimerdinger_Error.jpg" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Assets/Heimerdinger_Error.jpg">
+					<Candidate type="Path">
+						<Value>Assets\Heimerdinger_Error.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="HelmetIcon24x24.png" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Assets/HelmetIcon24x24.png">
+					<Candidate type="Path">
+						<Value>Assets\HelmetIcon24x24.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="HelmetIcon50x50.png" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Assets/HelmetIcon50x50.png"/>
+				<NamedResource name="HelmitIcon1240x600.png" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Assets/HelmitIcon1240x600.png">
+					<Candidate type="Path">
+						<Value>Assets\HelmitIcon1240x600.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="HelmitIcon142x142.png" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Assets/HelmitIcon142x142.png">
+					<Candidate type="Path">
+						<Value>Assets\HelmitIcon142x142.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="HelmitIcon150x150.png" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Assets/HelmitIcon150x150.png">
+					<Candidate type="Path">
+						<Value>Assets\HelmitIcon150x150.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="HelmitIcon176x176.png" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Assets/HelmitIcon176x176.png">
+					<Candidate type="Path">
+						<Value>Assets\HelmitIcon176x176.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="HelmitIcon284x284.png" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Assets/HelmitIcon284x284.png">
+					<Candidate type="Path">
+						<Value>Assets\HelmitIcon284x284.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="HelmitIcon300x300.png" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Assets/HelmitIcon300x300.png">
+					<Candidate type="Path">
+						<Value>Assets\HelmitIcon300x300.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="HelmitIcon310x150.png" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Assets/HelmitIcon310x150.png">
+					<Candidate type="Path">
+						<Value>Assets\HelmitIcon310x150.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="HelmitIcon44x44.png" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Assets/HelmitIcon44x44.png">
+					<Candidate type="Path">
+						<Value>Assets\HelmitIcon44x44.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="HelmitIcon600x600.png" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Assets/HelmitIcon600x600.png">
+					<Candidate type="Path">
+						<Value>Assets\HelmitIcon600x600.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="HelmitIcon620x300.png" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Assets/HelmitIcon620x300.png">
+					<Candidate type="Path">
+						<Value>Assets\HelmitIcon620x300.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="HelmitIcon71x71.png" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Assets/HelmitIcon71x71.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\HelmitIcon71x71.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="HelmitIcon88x88.png" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Assets/HelmitIcon88x88.png">
+					<Candidate type="Path">
+						<Value>Assets\HelmitIcon88x88.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="LockScreenLogo.png" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Assets/LockScreenLogo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\LockScreenLogo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Ryze_SignIn.jpg" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Assets/Ryze_SignIn.jpg">
+					<Candidate type="Path">
+						<Value>Assets\Ryze_SignIn.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square150x150Logo.png" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Assets/Square150x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square150x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square44x44Logo.png" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Assets/Square44x44Logo.png">
+					<Candidate qualifiers="TargetSize-24, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Assets/StoreLogo.png"/>
+				<NamedResource name="StoreLogo100x100.png" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Assets/StoreLogo100x100.png">
+					<Candidate type="Path">
+						<Value>Assets\StoreLogo100x100.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Test.xml" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Assets/Test.xml">
+					<Candidate type="Path">
+						<Value>Assets\Test.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide310x150Logo.png" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Assets/Wide310x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Wide310x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="WORKDAMMIT.png" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Assets/WORKDAMMIT.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\WORKDAMMIT.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="LeagueIcons">
+					<NamedResource name="BRONZE.png" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Assets/LeagueIcons/BRONZE.png">
+						<Candidate type="Path">
+							<Value>Assets\LeagueIcons\BRONZE.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="CHALLENGER.png" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Assets/LeagueIcons/CHALLENGER.png">
+						<Candidate type="Path">
+							<Value>Assets\LeagueIcons\CHALLENGER.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="DIAMOND.png" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Assets/LeagueIcons/DIAMOND.png">
+						<Candidate type="Path">
+							<Value>Assets\LeagueIcons\DIAMOND.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="GOLD.png" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Assets/LeagueIcons/GOLD.png">
+						<Candidate type="Path">
+							<Value>Assets\LeagueIcons\GOLD.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="MASTER.png" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Assets/LeagueIcons/MASTER.png">
+						<Candidate type="Path">
+							<Value>Assets\LeagueIcons\MASTER.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="PLATINUM.png" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Assets/LeagueIcons/PLATINUM.png">
+						<Candidate type="Path">
+							<Value>Assets\LeagueIcons\PLATINUM.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="SILVER.png" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Assets/LeagueIcons/SILVER.png">
+						<Candidate type="Path">
+							<Value>Assets\LeagueIcons\SILVER.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="UNRANKED.png" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Assets/LeagueIcons/UNRANKED.png">
+						<Candidate type="Path">
+							<Value>Assets\LeagueIcons\UNRANKED.png</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Maps">
+					<NamedResource name="modes-cs.jpg" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Assets/Maps/modes-cs.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\modes-cs.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="modes-ha.jpg" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Assets/Maps/modes-ha.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\modes-ha.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="modes-sr.jpg" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Assets/Maps/modes-sr.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\modes-sr.jpg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="modes-tt.jpg" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Assets/Maps/modes-tt.jpg">
+						<Candidate type="Path">
+							<Value>Assets\Maps\modes-tt.jpg</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Microsoft.AdMediator.Universal">
+				<NamedResource name="Microsoft.AdMediator.Universal.xr.xml" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Microsoft.AdMediator.Universal/Microsoft.AdMediator.Universal.xr.xml">
+					<Candidate type="Path">
+						<Value>Microsoft.AdMediator.Universal\Microsoft.AdMediator.Universal.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Generic.xbf" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Microsoft.AdMediator.Universal/Themes/Generic.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Properties">
+				<NamedResource name="Default.rd.xml" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Properties/Default.rd.xml">
+					<Candidate type="Path">
+						<Value>Properties\Default.rd.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Styles">
+				<NamedResource name="SplitViewStyles.xbf" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/Styles/SplitViewStyles.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="WinMetadata">
+				<NamedResource name="Microsoft.Advertising.winmd" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/WinMetadata/Microsoft.Advertising.winmd">
+					<Candidate type="Path">
+						<Value>WinMetadata\Microsoft.Advertising.winmd</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Windows.winmd" uri="ms-resource://62929UnlimitedCodeWorks.WellPlayed/Files/WinMetadata/Windows.winmd">
+					<Candidate type="Path">
+						<Value>WinMetadata\Windows.winmd</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

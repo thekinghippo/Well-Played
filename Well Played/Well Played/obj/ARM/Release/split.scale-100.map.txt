@@ -1,0 +1,13 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.scale-100"
+"ResourceDimensions"		"scale-100"
+
+[Files]
+"C:\Users\Mark\OneDrive\Documents\Coding\Well Played(v0.00.038)\Well Played\obj\ARM\Release\split.scale-100.pri"			"resources.pri"
+"C:\Users\Mark\OneDrive\Documents\Coding\Well Played(v0.00.038)\Well Played\obj\ARM\Release\PackageLayout\Assets\WORKDAMMIT.scale-100.png"			"Assets\WORKDAMMIT.scale-100.png"
+"C:\Users\Mark\OneDrive\Documents\Coding\Well Played(v0.00.038)\Well Played\obj\ARM\Release\PackageLayout\Assets\Wide310x150Logo.scale-100.png"			"Assets\Wide310x150Logo.scale-100.png"
+"C:\Users\Mark\OneDrive\Documents\Coding\Well Played(v0.00.038)\Well Played\obj\ARM\Release\PackageLayout\Assets\StoreLogo.scale-100.png"			"Assets\StoreLogo.scale-100.png"
+"C:\Users\Mark\OneDrive\Documents\Coding\Well Played(v0.00.038)\Well Played\obj\ARM\Release\PackageLayout\Assets\Square44x44Logo.scale-100.png"			"Assets\Square44x44Logo.scale-100.png"
+"C:\Users\Mark\OneDrive\Documents\Coding\Well Played(v0.00.038)\Well Played\obj\ARM\Release\PackageLayout\Assets\Square150x150Logo.scale-100.png"			"Assets\Square150x150Logo.scale-100.png"
+"C:\Users\Mark\OneDrive\Documents\Coding\Well Played(v0.00.038)\Well Played\obj\ARM\Release\PackageLayout\Assets\HelmitIcon71x71.scale-100.png"			"Assets\HelmitIcon71x71.scale-100.png"
+"C:\Users\Mark\OneDrive\Documents\Coding\Well Played(v0.00.038)\Well Played\obj\ARM\Release\PackageLayout\Assets\HelmetIcon50x50.scale-100.png"			"Assets\HelmetIcon50x50.scale-100.png"

@@ -1,0 +1,243 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Well_Played"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Universal="using:Microsoft.AdMediator.Universal"
+    x:Class="Well_Played.LookUp"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <ResourceDictionary>
+            <!-- Error Button -->
+            <Style TargetType="Button" x:Key="NavButton">
+                <Setter Property="Height" Value="48"/>
+                <Setter Property="Width" Value="48"/>
+                <Setter Property="FontFamily" Value="Segoe MDL2 Assets"/>
+                <Setter Property="Foreground" Value="Black"/>
+                <Setter Property="Background" Value="Transparent"/>
+                <Setter Property="FontSize" Value="20"/>
+            </Style>
+        </ResourceDictionary>
+    </Page.Resources>
+
+    <Grid>
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup x:Name="WindowStates">
+                <VisualState x:Name="NarrowState">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="320"/>
+                    </VisualState.StateTriggers>
+                </VisualState>
+                <VisualState x:Name="MediumState">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="600"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="Refresh.Visibility" Value="Visible"/>
+                        <!--<Setter Target="Search.Visibility" Value="Visible"/>-->
+                        <Setter Target="CommandBar.VerticalAlignment" Value="Top"/>
+                        <Setter Target="CommandBar.HorizontalAlignment" Value="Right"/>
+                        <Setter Target="CommandBar.Margin" Value="0,-48,0,0"/>
+                        <Setter Target="CommandBar.Width" Value="auto"/>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:Name="WideState">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="1024"/>
+                    </VisualState.StateTriggers>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+
+        <CommandBar x:Name="CommandBar" VerticalAlignment="Bottom" HorizontalAlignment="Right" 
+			Margin="0,0,0,-48" Width="auto">
+            <AppBarButton x:Name="Refresh" Icon="Refresh" Label="Refresh" Visibility="Collapsed" Click="Refresh_Click"/>
+            <AppBarButton x:Name="Search" Icon="Find" Label="Search" Visibility="Collapsed"/>
+            <AppBarButton Icon="World" Label="Change Region">
+                <AppBarButton.Flyout>
+                    <Flyout Opened="Flyout_Opened">
+                        <StackPanel Margin="-12">
+                            <Grid Height="32" Tapped="BR_Tapped">
+                                <Rectangle x:Name="BR_Rect">
+                                    <Rectangle.Fill>
+                                        <SolidColorBrush Color="RoyalBlue" 
+											Opacity="0"/>
+                                    </Rectangle.Fill>
+                                </Rectangle>
+                                <TextBlock x:Name="BR" VerticalAlignment="Center" HorizontalAlignment="Center" Text="BR"/>
+                            </Grid>
+                            <Grid Height="32" Tapped="EUNE_Tapped">
+                                <Rectangle x:Name="EUNE_Rect">
+                                    <Rectangle.Fill>
+                                        <SolidColorBrush Color="RoyalBlue" 
+											Opacity="0"/>
+                                    </Rectangle.Fill>
+                                </Rectangle>
+                                <TextBlock x:Name="EUNE" VerticalAlignment="Center" HorizontalAlignment="Center" Text="EUNE"/>
+                            </Grid>
+                            <Grid Height="32" Tapped="EUW_Tapped">
+                                <Rectangle x:Name="EUW_Rect">
+                                    <Rectangle.Fill>
+                                        <SolidColorBrush Color="RoyalBlue" 
+											Opacity="0"/>
+                                    </Rectangle.Fill>
+                                </Rectangle>
+                                <TextBlock x:Name="EUW" VerticalAlignment="Center" HorizontalAlignment="Center" Text="EUW"/>
+                            </Grid>
+                            <Grid Height="32" Tapped="KR_Tapped">
+                                <Rectangle x:Name="KR_Rect">
+                                    <Rectangle.Fill>
+                                        <SolidColorBrush Color="RoyalBlue" 
+											Opacity="0"/>
+                                    </Rectangle.Fill>
+                                </Rectangle>
+                                <TextBlock x:Name="KR" VerticalAlignment="Center" HorizontalAlignment="Center" Text="KR"/>
+                            </Grid>
+                            <Grid Height="32" Tapped="LAN_Tapped">
+                                <Rectangle x:Name="LAN_Rect">
+                                    <Rectangle.Fill>
+                                        <SolidColorBrush Color="RoyalBlue" 
+											Opacity="0"/>
+                                    </Rectangle.Fill>
+                                </Rectangle>
+                                <TextBlock x:Name="LAN" VerticalAlignment="Center" HorizontalAlignment="Center" Text="LAN"/>
+                            </Grid>
+                            <Grid Height="32" Tapped="LAS_Tapped">
+                                <Rectangle x:Name="LAS_Rect">
+                                    <Rectangle.Fill>
+                                        <SolidColorBrush Color="RoyalBlue" 
+											Opacity="0"/>
+                                    </Rectangle.Fill>
+                                </Rectangle>
+                                <TextBlock x:Name="LAS" VerticalAlignment="Center" HorizontalAlignment="Center" Text="LAS"/>
+                            </Grid>
+                            <Grid Height="32" Tapped="NA_Tapped">
+                                <Rectangle x:Name="NA_Rect">
+                                    <Rectangle.Fill>
+                                        <SolidColorBrush Color="RoyalBlue" 
+											Opacity="0"/>
+                                    </Rectangle.Fill>
+                                </Rectangle>
+                                <TextBlock x:Name="NA" VerticalAlignment="Center" HorizontalAlignment="Center" Text="NA"/>
+                            </Grid>
+                            <Grid Height="32" Tapped="OCE_Tapped">
+                                <Rectangle x:Name="OCE_Rect">
+                                    <Rectangle.Fill>
+                                        <SolidColorBrush Color="RoyalBlue" 
+											Opacity="0"/>
+                                    </Rectangle.Fill>
+                                </Rectangle>
+                                <TextBlock x:Name="OCE" VerticalAlignment="Center" HorizontalAlignment="Center" Text="OCE"/>
+                            </Grid>
+                            <Grid Height="32" Tapped="RU_Tapped">
+                                <Rectangle x:Name="RU_Rect">
+                                    <Rectangle.Fill>
+                                        <SolidColorBrush Color="RoyalBlue" 
+											Opacity="0"/>
+                                    </Rectangle.Fill>
+                                </Rectangle>
+                                <TextBlock x:Name="RU" VerticalAlignment="Center" HorizontalAlignment="Center" Text="RU"/>
+                            </Grid>
+                            <Grid Height="32" Tapped="TR_Tapped">
+                                <Rectangle x:Name="TR_Rect">
+                                    <Rectangle.Fill>
+                                        <SolidColorBrush Color="RoyalBlue" 
+											Opacity="0"/>
+                                    </Rectangle.Fill>
+                                </Rectangle>
+                                <TextBlock x:Name="TR" VerticalAlignment="Center" HorizontalAlignment="Center" Text="TR"/>
+                            </Grid>
+                        </StackPanel>
+                    </Flyout>
+                </AppBarButton.Flyout>
+            </AppBarButton>
+            <AppBarButton Icon="Accept" Label="Sign In" Click="AppBarButton_Accept">
+                <FlyoutBase.AttachedFlyout>
+                    <Flyout>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+
+                            </Grid.RowDefinitions>
+                            <TextBlock Text="Error Signing In" 
+								Foreground="Red" 
+								FontSize="20" 
+								HorizontalAlignment="Center"/>
+                            <TextBlock Text="possible reasons include" 
+								HorizontalAlignment="Center"
+								Grid.Row="1"
+								FontSize="12"/>
+                            <MenuFlyoutSeparator Grid.Row="2"/>
+                            <TextBlock Text="-Invalid Summoner Name-"
+								HorizontalAlignment="Center"
+								Grid.Row="3"/>
+                            <TextBlock Text="-Incorrect Region Setting-"
+								HorizontalAlignment="Center"
+								Grid.Row="4"/>
+                            <TextBlock Text="-Poor Internet Connection-"
+								HorizontalAlignment="Center"
+								Grid.Row="5"/>
+                            <TextBlock Text="-RIOT Server Timeout-"
+								HorizontalAlignment="Center"
+								Grid.Row="6"/>
+                            <Grid Grid.Row="7" Margin="0,12,0,0">
+                                <Rectangle Height="160"
+									Width="160" Fill="DimGray"/>
+                                <Image Source="assets/Heimerdinger_Error.jpg" 
+									VerticalAlignment="Center"
+									HorizontalAlignment="Center"                                   
+									Height="150"
+									Width="150"
+									Stretch="fill"/>
+                            </Grid>
+                        </Grid>
+                    </Flyout>
+                </FlyoutBase.AttachedFlyout>
+            </AppBarButton>
+        </CommandBar>
+
+        <Grid x:Name="TitleGrid"
+			VerticalAlignment="Top" 
+			Margin="12,-48,48,0" 
+			Height="48">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock x:Name="TitleBar"
+					Text="Lookup"
+					FontWeight="Bold"
+					VerticalAlignment="Center"
+					FontSize="20"/>
+                <Grid Height="48" Width="48">
+                    <ProgressRing x:Name="MyProgressRing"                              
+						Width="20"
+						Height="20"
+						Foreground="RoyalBlue"
+						VerticalAlignment="Center"
+						HorizontalAlignment="Center"/>
+                </Grid>
+            </StackPanel>
+        </Grid>
+
+        <Image Source="assets/Elise_Lookup.jpg" 
+			Stretch="None"
+			VerticalAlignment="Top"
+			HorizontalAlignment="Right"
+			Margin="0,0,-244,0"/>
+
+        <TextBox x:Name="SummonerName" 
+			PlaceholderText="Enter Summoner Name" 
+			VerticalAlignment="Top"
+			HorizontalAlignment="Right"
+			Margin="0,172,156,0"
+			Height="24"
+			Width="192"/>
+    </Grid>
+</Page>

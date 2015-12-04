@@ -1,0 +1,280 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="Well_Played.Item"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Well_Played"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:data="using:Well_Played.Models"
+    mc:Ignorable="d"
+                        >
+
+    <Page.Resources>
+        <ResourceDictionary>
+            <Style TargetType="TextBlock" x:Key="Title">
+                <Setter Property="FontSize" Value="16"/>
+                <Setter Property="FontWeight" Value="bold"/>
+                <Setter Property="HorizontalAlignment" Value="Center"/>
+            </Style>
+            <Style TargetType="TextBlock" x:Key="Content">
+                <Setter Property="VerticalAlignment" Value="Center"/>
+                <Setter Property="HorizontalAlignment" Value="Center"/>
+                <Setter Property="Margin" Value="12,0,12,0"/>
+            </Style>
+            <Style TargetType="TextBlock" x:Key="SubContent">
+                <Setter Property="FontSize" Value="11"/>
+            </Style>
+            <Style TargetType="Button" x:Key="NavButton">
+                <Setter Property="Height" Value="48"/>
+                <Setter Property="Width" Value="48"/>
+                <Setter Property="FontFamily" Value="Segoe MDL2 Assets"/>
+                <Setter Property="Foreground" Value="Black"/>
+                <Setter Property="Background" Value="Transparent"/>
+                <Setter Property="FontSize" Value="20"/>
+            </Style>
+        </ResourceDictionary>
+    </Page.Resources>
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup x:ConnectionId='2' x:Name="WindowStates">
+                <VisualState x:ConnectionId='3' x:Name="NarrowState">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="320"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:ConnectionId='4' x:Name="MediumState">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="600"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="Refresh.Visibility" Value="Visible"/>
+                        <Setter Target="Search.Visibility" Value="Visible"/>
+                        <Setter Target="CommandBar.VerticalAlignment" Value="Top"/>
+                        <Setter Target="CommandBar.HorizontalAlignment" Value="Right"/>
+                        <Setter Target="CommandBar.Margin" Value="0,-48,0,0"/>
+                        <Setter Target="CommandBar.Width" Value="auto"/>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:ConnectionId='5' x:Name="WideState">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="1024"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+
+        <CommandBar x:ConnectionId='6' Name="CommandBar" VerticalAlignment="Bottom" HorizontalAlignment="Right" 
+                    Margin="0,0,0,-48" Width="auto">
+            <AppBarButton x:ConnectionId='29' Name="Refresh" Icon="Refresh" Label="Refresh" Visibility="Collapsed"                      />
+            <AppBarButton x:ConnectionId='30' Name="Search" Icon="Find" Label="Search" Visibility="Collapsed"/>
+        </CommandBar>
+        <Grid VerticalAlignment="Top" 
+              Margin="12,-48,96,0" 
+              Height="48">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock x:ConnectionId='26' Name="TitleBar"
+                           Text="Item"
+                           FontWeight="Bold"
+                           VerticalAlignment="Center"
+                           FontSize="20"/>
+                <Grid Height="48" Width="48">
+                    <ProgressRing x:ConnectionId='27' Name="MyProgressRing"                              
+                                  Width="20"
+                                  Height="20"
+                                  Foreground="RoyalBlue"
+                                  VerticalAlignment="Center"
+                                  HorizontalAlignment="Center"/>
+                    <Button x:ConnectionId='28' Name="Error" Style="{StaticResource NavButton}"
+                            HorizontalAlignment="Right"
+                            VerticalAlignment="Top"
+                            Content="&#xE98F;" 
+                            Visibility="Collapsed" 
+                            Foreground="DarkOrange"                    >
+                        <FlyoutBase.AttachedFlyout>
+                            <Flyout>
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition Height="Auto"/>
+                                    </Grid.RowDefinitions>
+                                    <TextBlock Text="Error Loading Page" 
+                                       Foreground="Red" 
+                                       FontSize="20" 
+                                       HorizontalAlignment="Center"/>
+                                    <TextBlock Text="possible reasons include" 
+                                       HorizontalAlignment="Center"
+                                       Grid.Row="1"
+                                       FontSize="12"/>
+                                    <MenuFlyoutSeparator Grid.Row="2"/>
+                                    <TextBlock Text="-Poor Internet Connection-"
+                                       HorizontalAlignment="Center"
+                                       Grid.Row="3"/>
+                                    <TextBlock Text="-RIOT Server Timeout-"
+                                       HorizontalAlignment="Center"
+                                       Grid.Row="4"/>
+                                    <Grid Grid.Row="5" Margin="0,12,0,0">
+                                        <Rectangle Height="160"
+                                           Width="160">
+                                            <Rectangle.Fill>
+                                                <SolidColorBrush Color="DimGray"/>
+                                            </Rectangle.Fill>
+                                        </Rectangle>
+                                        <Image Source="assets/Heimerdinger_Error.jpg" 
+                                   VerticalAlignment="Center"
+                                   HorizontalAlignment="Center"                                   
+                                   Height="150"
+                                   Width="150"
+                                   Stretch="fill"/>
+                                    </Grid>
+                                </Grid>
+                            </Flyout>
+                        </FlyoutBase.AttachedFlyout>
+                    </Button>
+                </Grid>
+            </StackPanel>
+        </Grid>
+
+        <ScrollViewer>
+            <StackPanel>
+                <Grid x:ConnectionId='7' Name="BuildsIntoGrid">
+                    <Rectangle>
+                        <Rectangle.Fill>
+                            <SolidColorBrush Color="RoyalBlue" Opacity="0.5"/>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                    <TextBlock Text="Builds Into" Style="{StaticResource Title}"/>
+                </Grid>
+                <Grid x:ConnectionId='8' HorizontalAlignment="Center" Width="auto" Height="auto" Margin="4,4,0,-10" Name="BuildsIntoItemsGrid">
+                    <GridView x:ConnectionId='23'                                  
+                              IsItemClickEnabled="True" 
+                                                            >
+                        <GridView.ItemTemplate>
+                            <DataTemplate                       >
+                                <Grid x:ConnectionId='24' Padding="4">
+                                    <Rectangle Width="52" Height="52" Fill="DimGray"/>
+                                    <Image x:ConnectionId='25' Width="48" Height="48"                           />
+                                </Grid>
+                            </DataTemplate>
+                        </GridView.ItemTemplate>
+                    </GridView>
+                </Grid>
+
+                <Grid Margin="0,0,0,8">
+                    <Rectangle>
+                        <Rectangle.Fill>
+                            <SolidColorBrush Color="RoyalBlue" Opacity="0.5"/>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                    <TextBlock Text="Build Tree" Style="{StaticResource Title}"/>
+                </Grid>
+                <Grid Margin="0,0,0,4" Padding="0">
+                    <Rectangle Width="52" Height="52" Fill="DimGray" HorizontalAlignment="Center"/>
+                    <Image x:ConnectionId='22' Name="ItemImage"
+                   Height="48"
+                   Width="48"/>
+                </Grid>
+                <Grid Margin="0,-4,0,-4">
+                    <Line x:ConnectionId='18' Name="Symbol1" Stroke="DimGray" HorizontalAlignment="Center" StrokeThickness="4" Y1="32" Visibility="Collapsed"/>
+                    <Grid x:ConnectionId='19' Name="Symbol2" Visibility="Collapsed">
+                        <Line Stroke="DimGray" HorizontalAlignment="Center" StrokeThickness="4" Y1="16"/>
+                        <Line Stroke="DimGray" HorizontalAlignment="Center" StrokeThickness="4" X1="0" Y1="16" X2="64" Y2="16"/>
+                        <Line Stroke="DimGray" HorizontalAlignment="Center" StrokeThickness="4" X1="0" Y1="16" X2="0" Y2="32" Margin="-64,0,0,0"/>
+                        <Line Stroke="DimGray" HorizontalAlignment="Center" StrokeThickness="4" X1="0" Y1="16" X2="0" Y2="32" Margin="64,0,0,0"/>
+                        <Ellipse Fill="DimGray" HorizontalAlignment="Center" Height="4" Width="4" Margin="-66,-2,0,0"/>
+                        <Ellipse Fill="DimGray" HorizontalAlignment="Center" Height="4" Width="4" Margin="62,-2,0,0"/>
+                    </Grid>
+                    <Grid x:ConnectionId='20' Name="Symbol3" Visibility="Collapsed">
+                        <Line Stroke="DimGray" HorizontalAlignment="Center" StrokeThickness="4" X1="0" Y1="16" X2="128" Y2="16"/>
+                        <Line Stroke="DimGray" HorizontalAlignment="Center" StrokeThickness="4" X1="0" Y1="16" X2="0" Y2="32" Margin="-128,0,0,0"/>
+                        <Line Stroke="DimGray" HorizontalAlignment="Center" StrokeThickness="4" X1="0" Y1="16" X2="0" Y2="32" Margin="128,0,0,0"/>
+                        <Ellipse Fill="DimGray" HorizontalAlignment="Center" Height="4" Width="4" Margin="-130,-2,0,0"/>
+                        <Ellipse Fill="DimGray" HorizontalAlignment="Center" Height="4" Width="4" Margin="126,-2,0,0"/>
+                    </Grid>
+                    <Grid x:ConnectionId='21' Name="Symbol4" Visibility="Collapsed">
+                        <Line Stroke="DimGray" HorizontalAlignment="Center" StrokeThickness="4" Y1="16"/>
+                        <Line Stroke="DimGray" HorizontalAlignment="Center" StrokeThickness="4" X1="0" Y1="16" X2="160" Y2="16"/>
+                        <Line Stroke="DimGray" HorizontalAlignment="Center" StrokeThickness="4" X1="0" Y1="16" X2="0" Y2="32" Margin="-64,0,0,0"/>
+                        <Line Stroke="DimGray" HorizontalAlignment="Center" StrokeThickness="4" X1="0" Y1="16" X2="0" Y2="32" Margin="64,0,0,0"/>
+                        <Line Stroke="DimGray" HorizontalAlignment="Center" StrokeThickness="4" X1="0" Y1="16" X2="0" Y2="32" Margin="-160,0,0,0"/>
+                        <Line Stroke="DimGray" HorizontalAlignment="Center" StrokeThickness="4" X1="0" Y1="16" X2="0" Y2="32" Margin="160,0,0,0"/>
+                        <Ellipse Fill="DimGray" HorizontalAlignment="Center" Height="4" Width="4" Margin="-162,-2,0,0"/>
+                        <Ellipse Fill="DimGray" HorizontalAlignment="Center" Height="4" Width="4" Margin="158,-2,0,0"/>
+                    </Grid>
+                </Grid>
+                <Grid HorizontalAlignment="Center" Width="auto" Margin="4,0,0,0" Padding="0">
+                    <GridView x:ConnectionId='15'                                   
+                              Margin="8,-2,8,-4" Padding="0"
+                              IsItemClickEnabled="True" 
+                                                            >
+                        <GridView.ItemTemplate>
+                            <DataTemplate                       >
+                                <Grid x:ConnectionId='16' Margin="0" Padding="4">
+                                    <Rectangle Width="52" Height="52" Fill="DimGray"/>
+                                    <Image x:ConnectionId='17' Width="48" Height="48"                           />
+                                </Grid>
+                            </DataTemplate>
+                        </GridView.ItemTemplate>
+                    </GridView>
+                </Grid>
+
+                <Grid x:ConnectionId='9' Name="goldGrid" Margin="0,4,0,0">
+                    <Rectangle>
+                        <Rectangle.Fill>
+                            <SolidColorBrush Color="RoyalBlue" Opacity="0.5"/>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                    <TextBlock Text="Gold" Style="{StaticResource Title}"/>
+                </Grid>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="12"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="12"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock x:ConnectionId='12' Name="goldTotal"
+                               TextWrapping="WrapWholeWords"
+                               Grid.Column="1"
+                               Style="{Binding content}"
+                               TextAlignment="Center"/>
+                    <TextBlock x:ConnectionId='13' Name="goldRecipe"
+                               TextWrapping="WrapWholeWords"
+                               Grid.Column="2"
+                               Style="{Binding content}"
+                               TextAlignment="Center"/>
+                    <TextBlock x:ConnectionId='14' Name="goldSell"
+                               TextWrapping="WrapWholeWords"
+                               Grid.Column="3"
+                               Style="{Binding content}"
+                               TextAlignment="Center"/>
+                </Grid>
+
+                <Grid x:ConnectionId='10' Name="StatsGrid">
+                    <Rectangle>
+                        <Rectangle.Fill>
+                            <SolidColorBrush Color="RoyalBlue" Opacity="0.5"/>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                    <TextBlock Text="Stats" Style="{StaticResource Title}"/>
+                </Grid>
+                <TextBlock x:ConnectionId='11' Name="ItemDescription"
+                       TextWrapping="WrapWholeWords"
+                       Margin="24,12,24,12"
+                       Style="{Binding content}"/>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>
+

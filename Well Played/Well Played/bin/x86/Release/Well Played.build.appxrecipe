@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SURFACEPRO3</Machine>
+    <WindowsUser>Mark</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>c4b042bb-9eab-4f5f-9cf2-fbcf447b75dc</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\obj\x86\Release\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\AdMediator.config">
+      <PackagePath>AdMediator.config</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\Elise_LookUp.jpg">
+      <PackagePath>Assets\Elise_LookUp.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\Heimerdinger_Error.jpg">
+      <PackagePath>Assets\Heimerdinger_Error.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\HelmetIcon24x24.png">
+      <PackagePath>Assets\HelmetIcon24x24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\HelmetIcon50x50.scale-100.png">
+      <PackagePath>Assets\HelmetIcon50x50.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\HelmitIcon1240x600.png">
+      <PackagePath>Assets\HelmitIcon1240x600.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\HelmitIcon142x142.png">
+      <PackagePath>Assets\HelmitIcon142x142.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\HelmitIcon150x150.png">
+      <PackagePath>Assets\HelmitIcon150x150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\HelmitIcon176x176.png">
+      <PackagePath>Assets\HelmitIcon176x176.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\HelmitIcon284x284.png">
+      <PackagePath>Assets\HelmitIcon284x284.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\HelmitIcon300x300.png">
+      <PackagePath>Assets\HelmitIcon300x300.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\HelmitIcon310x150.png">
+      <PackagePath>Assets\HelmitIcon310x150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\HelmitIcon44x44.png">
+      <PackagePath>Assets\HelmitIcon44x44.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\HelmitIcon600x600.png">
+      <PackagePath>Assets\HelmitIcon600x600.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\HelmitIcon620x300.png">
+      <PackagePath>Assets\HelmitIcon620x300.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\HelmitIcon71x71.scale-100.png">
+      <PackagePath>Assets\HelmitIcon71x71.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\HelmitIcon71x71.scale-200.png">
+      <PackagePath>Assets\HelmitIcon71x71.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\HelmitIcon71x71.scale-400.png">
+      <PackagePath>Assets\HelmitIcon71x71.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\HelmitIcon88x88.png">
+      <PackagePath>Assets\HelmitIcon88x88.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\LeagueIcons\BRONZE.png">
+      <PackagePath>Assets\LeagueIcons\BRONZE.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\LeagueIcons\CHALLENGER.png">
+      <PackagePath>Assets\LeagueIcons\CHALLENGER.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\LeagueIcons\DIAMOND.png">
+      <PackagePath>Assets\LeagueIcons\DIAMOND.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\LeagueIcons\GOLD.png">
+      <PackagePath>Assets\LeagueIcons\GOLD.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\LeagueIcons\MASTER.png">
+      <PackagePath>Assets\LeagueIcons\MASTER.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\LeagueIcons\PLATINUM.png">
+      <PackagePath>Assets\LeagueIcons\PLATINUM.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\LeagueIcons\SILVER.png">
+      <PackagePath>Assets\LeagueIcons\SILVER.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\LeagueIcons\UNRANKED.png">
+      <PackagePath>Assets\LeagueIcons\UNRANKED.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\Maps\modes-cs.jpg">
+      <PackagePath>Assets\Maps\modes-cs.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\Maps\modes-ha.jpg">
+      <PackagePath>Assets\Maps\modes-ha.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\Maps\modes-sr.jpg">
+      <PackagePath>Assets\Maps\modes-sr.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\Maps\modes-tt.jpg">
+      <PackagePath>Assets\Maps\modes-tt.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\Ryze_SignIn.jpg">
+      <PackagePath>Assets\Ryze_SignIn.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\StoreLogo100x100.png">
+      <PackagePath>Assets\StoreLogo100x100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\Test.xml">
+      <PackagePath>Assets\Test.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\WORKDAMMIT.scale-100.png">
+      <PackagePath>Assets\WORKDAMMIT.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Assets\WORKDAMMIT.scale-200.png">
+      <PackagePath>Assets\WORKDAMMIT.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\ClrCompression.dll">
+      <PackagePath>ClrCompression.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Microsoft.AdMediator.Universal\Themes\Generic.xbf">
+      <PackagePath>Microsoft.AdMediator.Universal\Themes\Generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Well Played.dll">
+      <PackagePath>Well Played.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28v0.00.038%29\Well Played\bin\x86\Release\ilc\Well Played.exe">
+      <PackagePath>Well Played.exe</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.Advertising.Xaml\10.0\">
+      <Name>Microsoft.Advertising.Xaml</Name>
+      <Version>10.0.1510.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name=Microsoft.Advertising.Xaml, MinVersion=10.0.1510.0, Publisher=%27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.Advertising.Xaml\10.0\.\AppX\ARM\Microsoft.Advertising.Xaml.ARM.10.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkID=619694</MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.Advertising.Xaml\10.0\">
+      <Name>Microsoft.Advertising.Xaml</Name>
+      <Version>10.0.1510.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name=Microsoft.Advertising.Xaml, MinVersion=10.0.1510.0, Publisher=%27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.Advertising.Xaml\10.0\.\AppX\x64\Microsoft.Advertising.Xaml.x64.10.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkID=619694</MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.Advertising.Xaml\10.0\">
+      <Name>Microsoft.Advertising.Xaml</Name>
+      <Version>10.0.1510.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name=Microsoft.Advertising.Xaml, MinVersion=10.0.1510.0, Publisher=%27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.Advertising.Xaml\10.0\.\AppX\x86\Microsoft.Advertising.Xaml.x86.10.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkID=619694</MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.22929.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.22929.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.22929.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.22929.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.22929.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.22929.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.2\1.2\">
+      <Name>Microsoft.NET.Native.Framework.1.2</Name>
+      <Version>1.2.23231.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.2, MinVersion = 1.2.23231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.2\1.2\.\arm\ret\Native\Microsoft.NET.Native.Framework.1.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.2\1.2\">
+      <Name>Microsoft.NET.Native.Framework.1.2</Name>
+      <Version>1.2.23231.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.2, MinVersion = 1.2.23231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.2\1.2\.\x64\ret\Native\Microsoft.NET.Native.Framework.1.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.2\1.2\">
+      <Name>Microsoft.NET.Native.Framework.1.2</Name>
+      <Version>1.2.23231.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.2, MinVersion = 1.2.23231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.2\1.2\.\x86\ret\Native\Microsoft.NET.Native.Framework.1.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\">
+      <Name>Microsoft.NET.Native.Runtime.1.1</Name>
+      <Version>1.1.23406.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.1, MinVersion = 1.1.23406.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\.\AppX\ARM\Microsoft.NET.Native.Runtime.1.1.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\">
+      <Name>Microsoft.NET.Native.Runtime.1.1</Name>
+      <Version>1.1.23406.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.1, MinVersion = 1.1.23406.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\.\AppX\x64\Microsoft.NET.Native.Runtime.1.1.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\">
+      <Name>Microsoft.NET.Native.Runtime.1.1</Name>
+      <Version>1.1.23406.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.1, MinVersion = 1.1.23406.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\.\AppX\x86\Microsoft.NET.Native.Runtime.1.1.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

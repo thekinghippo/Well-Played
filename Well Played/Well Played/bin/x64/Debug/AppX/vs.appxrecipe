@@ -1,0 +1,731 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SURFACEPRO3</Machine>
+    <WindowsUser>Mark</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>c4b042bb-9eab-4f5f-9cf2-fbcf447b75dc</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\obj\x64\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>01150EB9182A4DEC1BC699A30CEAD2ACC2885AEF7FF1452A94E20C7B7620F5FE</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>62929UnlimitedCodeWorks.WellPlayed_1.2.8.0_x64__w257pqvdd71tc</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>62929UnlimitedCodeWorks.WellPlayed_w257pqvdd71tc!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>62929UnlimitedCodeWorks.WellPlayed</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=30333C94-6177-428A-BA76-425B02F6E81E</RegisteredPackagePublisher>
+    <RegisteredVersion>1.2.8.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-11-19T07:47:35.185</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\Heimerdinger_Error.jpg">
+      <PackagePath>Assets\Heimerdinger_Error.jpg</PackagePath>
+      <Modified>2015-11-14T11:35:19.376</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\HelmetIcon24x24.png">
+      <PackagePath>Assets\HelmetIcon24x24.png</PackagePath>
+      <Modified>2015-11-14T11:35:19.380</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\HelmetIcon50x50.scale-100.png">
+      <PackagePath>Assets\HelmetIcon50x50.scale-100.png</PackagePath>
+      <Modified>2015-11-14T11:35:14.594</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\HelmitIcon1240x600.png">
+      <PackagePath>Assets\HelmitIcon1240x600.png</PackagePath>
+      <Modified>2015-11-14T11:35:14.629</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\HelmitIcon142x142.png">
+      <PackagePath>Assets\HelmitIcon142x142.png</PackagePath>
+      <Modified>2015-11-14T11:35:14.609</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\HelmitIcon150x150.png">
+      <PackagePath>Assets\HelmitIcon150x150.png</PackagePath>
+      <Modified>2015-11-14T11:35:14.612</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\HelmitIcon176x176.png">
+      <PackagePath>Assets\HelmitIcon176x176.png</PackagePath>
+      <Modified>2015-11-14T11:35:14.615</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\HelmitIcon284x284.png">
+      <PackagePath>Assets\HelmitIcon284x284.png</PackagePath>
+      <Modified>2015-11-14T11:35:14.619</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\HelmitIcon300x300.png">
+      <PackagePath>Assets\HelmitIcon300x300.png</PackagePath>
+      <Modified>2015-11-14T11:35:14.621</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\HelmitIcon310x150.png">
+      <PackagePath>Assets\HelmitIcon310x150.png</PackagePath>
+      <Modified>2015-11-14T11:35:14.623</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\HelmitIcon44x44.png">
+      <PackagePath>Assets\HelmitIcon44x44.png</PackagePath>
+      <Modified>2015-11-14T11:35:14.597</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\HelmitIcon600x600.png">
+      <PackagePath>Assets\HelmitIcon600x600.png</PackagePath>
+      <Modified>2015-11-14T11:35:14.625</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\HelmitIcon620x300.png">
+      <PackagePath>Assets\HelmitIcon620x300.png</PackagePath>
+      <Modified>2015-11-14T11:35:14.627</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\HelmitIcon71x71.scale-100.png">
+      <PackagePath>Assets\HelmitIcon71x71.scale-100.png</PackagePath>
+      <Modified>2015-11-14T11:35:14.599</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\HelmitIcon71x71.scale-200.png">
+      <PackagePath>Assets\HelmitIcon71x71.scale-200.png</PackagePath>
+      <Modified>2015-11-14T11:35:14.602</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\HelmitIcon71x71.scale-400.png">
+      <PackagePath>Assets\HelmitIcon71x71.scale-400.png</PackagePath>
+      <Modified>2015-11-14T11:35:14.604</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\HelmitIcon88x88.png">
+      <PackagePath>Assets\HelmitIcon88x88.png</PackagePath>
+      <Modified>2015-11-14T11:35:14.604</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\LeagueIcons\BRONZE.png">
+      <PackagePath>Assets\LeagueIcons\BRONZE.png</PackagePath>
+      <Modified>2015-11-15T00:19:36.304</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\LeagueIcons\CHALLENGER.png">
+      <PackagePath>Assets\LeagueIcons\CHALLENGER.png</PackagePath>
+      <Modified>2015-11-15T00:19:36.309</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\LeagueIcons\DIAMOND.png">
+      <PackagePath>Assets\LeagueIcons\DIAMOND.png</PackagePath>
+      <Modified>2015-11-15T00:19:36.313</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\LeagueIcons\GOLD.png">
+      <PackagePath>Assets\LeagueIcons\GOLD.png</PackagePath>
+      <Modified>2015-11-15T00:19:36.315</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\LeagueIcons\MASTER.png">
+      <PackagePath>Assets\LeagueIcons\MASTER.png</PackagePath>
+      <Modified>2015-11-15T00:19:36.325</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\LeagueIcons\PLATINUM.png">
+      <PackagePath>Assets\LeagueIcons\PLATINUM.png</PackagePath>
+      <Modified>2015-11-15T00:19:36.330</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\LeagueIcons\SILVER.png">
+      <PackagePath>Assets\LeagueIcons\SILVER.png</PackagePath>
+      <Modified>2015-11-15T00:19:36.334</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2015-11-14T11:35:17.136</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\Maps\CrystalScare_Map.jpg">
+      <PackagePath>Assets\Maps\CrystalScare_Map.jpg</PackagePath>
+      <Modified>2015-11-15T04:15:51.288</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\Maps\HowlingAbyss_Map.jpg">
+      <PackagePath>Assets\Maps\HowlingAbyss_Map.jpg</PackagePath>
+      <Modified>2015-11-15T04:15:51.292</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\Maps\modes-cs.jpg">
+      <PackagePath>Assets\Maps\modes-cs.jpg</PackagePath>
+      <Modified>2015-11-15T04:15:51.297</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\Maps\modes-ha.jpg">
+      <PackagePath>Assets\Maps\modes-ha.jpg</PackagePath>
+      <Modified>2015-11-15T04:15:51.300</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\Maps\modes-sr.jpg">
+      <PackagePath>Assets\Maps\modes-sr.jpg</PackagePath>
+      <Modified>2015-11-15T04:15:51.303</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\Maps\modes-tt.jpg">
+      <PackagePath>Assets\Maps\modes-tt.jpg</PackagePath>
+      <Modified>2015-11-15T04:15:51.306</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\Maps\SummonersRift_Map.jpg">
+      <PackagePath>Assets\Maps\SummonersRift_Map.jpg</PackagePath>
+      <Modified>2015-11-15T04:15:51.309</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\Maps\Treeline_Map.jpg">
+      <PackagePath>Assets\Maps\Treeline_Map.jpg</PackagePath>
+      <Modified>2015-11-15T04:15:51.312</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\Ryze_SignIn.jpg">
+      <PackagePath>Assets\Ryze_SignIn.jpg</PackagePath>
+      <Modified>2015-11-14T11:35:17.146</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-11-14T11:35:19.205</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-11-14T11:35:19.245</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-11-14T11:35:19.249</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-11-14T11:35:19.255</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-11-14T11:35:19.223</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-11-14T11:35:19.230</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-11-14T11:35:19.235</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-11-14T11:35:19.238</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <Modified>2015-11-14T11:35:14.594</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\StoreLogo100x100.png">
+      <PackagePath>Assets\StoreLogo100x100.png</PackagePath>
+      <Modified>2015-11-14T12:30:49.209</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-11-14T11:35:19.262</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-11-14T11:35:19.266</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-11-14T11:35:19.269</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\WORKDAMMIT.scale-100.png">
+      <PackagePath>Assets\WORKDAMMIT.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-11-14T11:35:14.594</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Assets\WORKDAMMIT.scale-200.png">
+      <PackagePath>Assets\WORKDAMMIT.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-11-14T12:30:49.209</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\ClrCompression.dll">
+      <PackagePath>ClrCompression.dll</PackagePath>
+      <Modified>2015-08-05T15:51:05.106</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\entrypoint\Well Played.exe">
+      <PackagePath>entrypoint\Well Played.exe</PackagePath>
+      <Modified>2015-11-19T07:47:30.197</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Microsoft.CSharp.dll">
+      <PackagePath>Microsoft.CSharp.dll</PackagePath>
+      <Modified>2015-08-05T15:50:59.531</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Microsoft.VisualBasic.dll">
+      <PackagePath>Microsoft.VisualBasic.dll</PackagePath>
+      <Modified>2015-08-05T15:50:59.546</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Microsoft.Win32.Primitives.dll">
+      <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
+      <Modified>2015-08-05T15:50:56.914</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2015-11-14T03:25:13.577</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-11-19T07:47:32.582</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.AppContext.dll">
+      <PackagePath>System.AppContext.dll</PackagePath>
+      <Modified>2015-08-05T15:50:59.724</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Collections.Concurrent.dll">
+      <PackagePath>System.Collections.Concurrent.dll</PackagePath>
+      <Modified>2015-08-05T15:50:59.556</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Collections.dll">
+      <PackagePath>System.Collections.dll</PackagePath>
+      <Modified>2015-08-05T15:51:00.651</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Collections.Immutable.dll">
+      <PackagePath>System.Collections.Immutable.dll</PackagePath>
+      <Modified>2015-08-05T15:51:00.297</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Collections.NonGeneric.dll">
+      <PackagePath>System.Collections.NonGeneric.dll</PackagePath>
+      <Modified>2015-08-05T15:51:04.111</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Collections.Specialized.dll">
+      <PackagePath>System.Collections.Specialized.dll</PackagePath>
+      <Modified>2015-08-05T15:51:04.071</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.ComponentModel.Annotations.dll">
+      <PackagePath>System.ComponentModel.Annotations.dll</PackagePath>
+      <Modified>2015-08-05T15:51:00.217</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.ComponentModel.DataAnnotations.dll">
+      <PackagePath>System.ComponentModel.DataAnnotations.dll</PackagePath>
+      <Modified>2015-08-05T15:50:57.709</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.ComponentModel.dll">
+      <PackagePath>System.ComponentModel.dll</PackagePath>
+      <Modified>2015-08-05T15:51:00.072</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.ComponentModel.EventBasedAsync.dll">
+      <PackagePath>System.ComponentModel.EventBasedAsync.dll</PackagePath>
+      <Modified>2015-08-05T15:50:56.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Core.dll">
+      <PackagePath>System.Core.dll</PackagePath>
+      <Modified>2015-08-05T15:50:57.734</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Data.Common.dll">
+      <PackagePath>System.Data.Common.dll</PackagePath>
+      <Modified>2015-08-05T15:50:57.004</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Diagnostics.Contracts.dll">
+      <PackagePath>System.Diagnostics.Contracts.dll</PackagePath>
+      <Modified>2015-08-05T15:50:57.512</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Diagnostics.Debug.dll">
+      <PackagePath>System.Diagnostics.Debug.dll</PackagePath>
+      <Modified>2015-08-05T15:51:00.081</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Diagnostics.StackTrace.dll">
+      <PackagePath>System.Diagnostics.StackTrace.dll</PackagePath>
+      <Modified>2015-08-05T15:50:58.011</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Diagnostics.Tools.dll">
+      <PackagePath>System.Diagnostics.Tools.dll</PackagePath>
+      <Modified>2015-08-05T15:51:00.070</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Diagnostics.Tracing.dll">
+      <PackagePath>System.Diagnostics.Tracing.dll</PackagePath>
+      <Modified>2015-08-05T15:51:00.259</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.dll">
+      <PackagePath>System.dll</PackagePath>
+      <Modified>2015-08-05T15:50:57.759</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Dynamic.Runtime.dll">
+      <PackagePath>System.Dynamic.Runtime.dll</PackagePath>
+      <Modified>2015-08-05T15:51:00.500</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Globalization.Calendars.dll">
+      <PackagePath>System.Globalization.Calendars.dll</PackagePath>
+      <Modified>2015-08-05T15:51:00.153</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Globalization.dll">
+      <PackagePath>System.Globalization.dll</PackagePath>
+      <Modified>2015-08-05T15:51:00.194</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Globalization.Extensions.dll">
+      <PackagePath>System.Globalization.Extensions.dll</PackagePath>
+      <Modified>2015-08-05T15:51:00.206</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.IO.Compression.dll">
+      <PackagePath>System.IO.Compression.dll</PackagePath>
+      <Modified>2015-08-05T15:51:00.241</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.IO.Compression.ZipFile.dll">
+      <PackagePath>System.IO.Compression.ZipFile.dll</PackagePath>
+      <Modified>2015-08-05T15:51:00.250</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.IO.dll">
+      <PackagePath>System.IO.dll</PackagePath>
+      <Modified>2015-08-05T15:51:00.209</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.IO.FileSystem.dll">
+      <PackagePath>System.IO.FileSystem.dll</PackagePath>
+      <Modified>2015-08-05T15:51:00.734</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.IO.FileSystem.Primitives.dll">
+      <PackagePath>System.IO.FileSystem.Primitives.dll</PackagePath>
+      <Modified>2015-08-05T15:51:01.053</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.IO.IsolatedStorage.dll">
+      <PackagePath>System.IO.IsolatedStorage.dll</PackagePath>
+      <Modified>2015-08-05T15:50:57.397</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.IO.UnmanagedMemoryStream.dll">
+      <PackagePath>System.IO.UnmanagedMemoryStream.dll</PackagePath>
+      <Modified>2015-08-05T15:51:01.060</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Linq.dll">
+      <PackagePath>System.Linq.dll</PackagePath>
+      <Modified>2015-08-05T15:51:01.664</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Linq.Expressions.dll">
+      <PackagePath>System.Linq.Expressions.dll</PackagePath>
+      <Modified>2015-08-05T15:51:02.291</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Linq.Parallel.dll">
+      <PackagePath>System.Linq.Parallel.dll</PackagePath>
+      <Modified>2015-08-05T15:51:02.464</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Linq.Queryable.dll">
+      <PackagePath>System.Linq.Queryable.dll</PackagePath>
+      <Modified>2015-08-05T15:51:01.266</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Net.dll">
+      <PackagePath>System.Net.dll</PackagePath>
+      <Modified>2015-08-05T15:50:57.782</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Net.Http.dll">
+      <PackagePath>System.Net.Http.dll</PackagePath>
+      <Modified>2015-08-05T15:51:01.794</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Net.Http.Rtc.dll">
+      <PackagePath>System.Net.Http.Rtc.dll</PackagePath>
+      <Modified>2015-08-05T15:50:57.198</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Net.NetworkInformation.dll">
+      <PackagePath>System.Net.NetworkInformation.dll</PackagePath>
+      <Modified>2015-08-05T15:51:01.191</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Net.Primitives.dll">
+      <PackagePath>System.Net.Primitives.dll</PackagePath>
+      <Modified>2015-08-05T15:51:02.002</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Net.Requests.dll">
+      <PackagePath>System.Net.Requests.dll</PackagePath>
+      <Modified>2015-08-05T15:50:57.250</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Net.Sockets.dll">
+      <PackagePath>System.Net.Sockets.dll</PackagePath>
+      <Modified>2015-08-05T15:50:57.316</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Net.WebHeaderCollection.dll">
+      <PackagePath>System.Net.WebHeaderCollection.dll</PackagePath>
+      <Modified>2015-08-05T15:50:57.326</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Numerics.dll">
+      <PackagePath>System.Numerics.dll</PackagePath>
+      <Modified>2015-08-05T15:50:57.803</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Numerics.Vectors.dll">
+      <PackagePath>System.Numerics.Vectors.dll</PackagePath>
+      <Modified>2015-08-05T15:51:01.238</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Numerics.Vectors.WindowsRuntime.dll">
+      <PackagePath>System.Numerics.Vectors.WindowsRuntime.dll</PackagePath>
+      <Modified>2015-08-05T15:50:57.332</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.ObjectModel.dll">
+      <PackagePath>System.ObjectModel.dll</PackagePath>
+      <Modified>2015-08-05T15:51:01.664</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Private.DataContractSerialization.dll">
+      <PackagePath>System.Private.DataContractSerialization.dll</PackagePath>
+      <Modified>2015-08-05T15:50:58.878</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Private.Networking.dll">
+      <PackagePath>System.Private.Networking.dll</PackagePath>
+      <Modified>2015-08-05T15:51:04.358</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Private.ServiceModel.dll">
+      <PackagePath>System.Private.ServiceModel.dll</PackagePath>
+      <Modified>2015-08-05T15:50:59.163</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Private.Uri.dll">
+      <PackagePath>System.Private.Uri.dll</PackagePath>
+      <Modified>2015-08-05T15:50:56.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Reflection.Context.dll">
+      <PackagePath>System.Reflection.Context.dll</PackagePath>
+      <Modified>2015-08-05T15:50:57.615</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Reflection.DispatchProxy.dll">
+      <PackagePath>System.Reflection.DispatchProxy.dll</PackagePath>
+      <Modified>2015-08-05T15:51:01.684</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Reflection.dll">
+      <PackagePath>System.Reflection.dll</PackagePath>
+      <Modified>2015-08-05T15:51:01.857</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Reflection.Emit.dll">
+      <PackagePath>System.Reflection.Emit.dll</PackagePath>
+      <Modified>2015-08-05T15:51:05.232</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Reflection.Emit.ILGeneration.dll">
+      <PackagePath>System.Reflection.Emit.ILGeneration.dll</PackagePath>
+      <Modified>2015-08-05T15:51:05.206</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Reflection.Emit.Lightweight.dll">
+      <PackagePath>System.Reflection.Emit.Lightweight.dll</PackagePath>
+      <Modified>2015-08-05T15:51:05.213</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Reflection.Extensions.dll">
+      <PackagePath>System.Reflection.Extensions.dll</PackagePath>
+      <Modified>2015-08-05T15:51:01.669</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Reflection.Metadata.dll">
+      <PackagePath>System.Reflection.Metadata.dll</PackagePath>
+      <Modified>2015-08-05T15:51:01.894</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Reflection.Primitives.dll">
+      <PackagePath>System.Reflection.Primitives.dll</PackagePath>
+      <Modified>2015-08-05T15:51:01.767</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Reflection.TypeExtensions.dll">
+      <PackagePath>System.Reflection.TypeExtensions.dll</PackagePath>
+      <Modified>2015-08-05T15:51:01.899</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Resources.ResourceManager.dll">
+      <PackagePath>System.Resources.ResourceManager.dll</PackagePath>
+      <Modified>2015-08-05T15:51:01.706</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2015-08-05T15:51:03.342</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Runtime.Extensions.dll">
+      <PackagePath>System.Runtime.Extensions.dll</PackagePath>
+      <Modified>2015-08-05T15:51:02.009</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Runtime.Handles.dll">
+      <PackagePath>System.Runtime.Handles.dll</PackagePath>
+      <Modified>2015-08-05T15:51:01.931</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Runtime.InteropServices.dll">
+      <PackagePath>System.Runtime.InteropServices.dll</PackagePath>
+      <Modified>2015-08-05T15:51:03.218</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Runtime.InteropServices.WindowsRuntime.dll">
+      <PackagePath>System.Runtime.InteropServices.WindowsRuntime.dll</PackagePath>
+      <Modified>2015-08-05T15:50:58.757</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Runtime.Numerics.dll">
+      <PackagePath>System.Runtime.Numerics.dll</PackagePath>
+      <Modified>2015-08-05T15:51:03.046</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Runtime.Serialization.dll">
+      <PackagePath>System.Runtime.Serialization.dll</PackagePath>
+      <Modified>2015-08-05T15:50:57.829</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Runtime.Serialization.Json.dll">
+      <PackagePath>System.Runtime.Serialization.Json.dll</PackagePath>
+      <Modified>2015-08-05T15:50:58.648</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Runtime.Serialization.Primitives.dll">
+      <PackagePath>System.Runtime.Serialization.Primitives.dll</PackagePath>
+      <Modified>2015-08-05T15:50:58.439</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Runtime.Serialization.Xml.dll">
+      <PackagePath>System.Runtime.Serialization.Xml.dll</PackagePath>
+      <Modified>2015-08-05T15:50:58.779</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Runtime.WindowsRuntime.dll">
+      <PackagePath>System.Runtime.WindowsRuntime.dll</PackagePath>
+      <Modified>2015-08-05T15:50:58.804</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Runtime.WindowsRuntime.UI.Xaml.dll">
+      <PackagePath>System.Runtime.WindowsRuntime.UI.Xaml.dll</PackagePath>
+      <Modified>2015-08-05T15:50:58.451</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Security.Claims.dll">
+      <PackagePath>System.Security.Claims.dll</PackagePath>
+      <Modified>2015-08-05T15:51:03.028</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Security.Principal.dll">
+      <PackagePath>System.Security.Principal.dll</PackagePath>
+      <Modified>2015-08-05T15:51:02.954</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.ServiceModel.dll">
+      <PackagePath>System.ServiceModel.dll</PackagePath>
+      <Modified>2015-08-05T15:50:57.846</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.ServiceModel.Duplex.dll">
+      <PackagePath>System.ServiceModel.Duplex.dll</PackagePath>
+      <Modified>2015-08-05T15:50:58.430</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.ServiceModel.Http.dll">
+      <PackagePath>System.ServiceModel.Http.dll</PackagePath>
+      <Modified>2015-08-05T15:50:58.467</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.ServiceModel.NetTcp.dll">
+      <PackagePath>System.ServiceModel.NetTcp.dll</PackagePath>
+      <Modified>2015-08-05T15:50:58.438</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.ServiceModel.Primitives.dll">
+      <PackagePath>System.ServiceModel.Primitives.dll</PackagePath>
+      <Modified>2015-08-05T15:50:59.028</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.ServiceModel.Security.dll">
+      <PackagePath>System.ServiceModel.Security.dll</PackagePath>
+      <Modified>2015-08-05T15:50:58.822</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.ServiceModel.Web.dll">
+      <PackagePath>System.ServiceModel.Web.dll</PackagePath>
+      <Modified>2015-08-05T15:50:57.865</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Text.Encoding.CodePages.dll">
+      <PackagePath>System.Text.Encoding.CodePages.dll</PackagePath>
+      <Modified>2015-08-05T15:50:58.865</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Text.Encoding.dll">
+      <PackagePath>System.Text.Encoding.dll</PackagePath>
+      <Modified>2015-08-05T15:51:02.758</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Text.Encoding.Extensions.dll">
+      <PackagePath>System.Text.Encoding.Extensions.dll</PackagePath>
+      <Modified>2015-08-05T15:51:02.772</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Text.RegularExpressions.dll">
+      <PackagePath>System.Text.RegularExpressions.dll</PackagePath>
+      <Modified>2015-08-05T15:51:03.017</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Threading.dll">
+      <PackagePath>System.Threading.dll</PackagePath>
+      <Modified>2015-08-05T15:51:03.022</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Threading.Overlapped.dll">
+      <PackagePath>System.Threading.Overlapped.dll</PackagePath>
+      <Modified>2015-08-05T15:50:57.040</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Threading.Tasks.Dataflow.dll">
+      <PackagePath>System.Threading.Tasks.Dataflow.dll</PackagePath>
+      <Modified>2015-08-05T15:51:03.001</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Threading.Tasks.dll">
+      <PackagePath>System.Threading.Tasks.dll</PackagePath>
+      <Modified>2015-08-05T15:51:03.034</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Threading.Tasks.Parallel.dll">
+      <PackagePath>System.Threading.Tasks.Parallel.dll</PackagePath>
+      <Modified>2015-08-05T15:51:02.806</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Threading.Timer.dll">
+      <PackagePath>System.Threading.Timer.dll</PackagePath>
+      <Modified>2015-08-05T15:51:02.916</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Windows.dll">
+      <PackagePath>System.Windows.dll</PackagePath>
+      <Modified>2015-08-05T15:50:57.882</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Xml.dll">
+      <PackagePath>System.Xml.dll</PackagePath>
+      <Modified>2015-08-05T15:50:57.998</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Xml.Linq.dll">
+      <PackagePath>System.Xml.Linq.dll</PackagePath>
+      <Modified>2015-08-05T15:50:58.013</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Xml.ReaderWriter.dll">
+      <PackagePath>System.Xml.ReaderWriter.dll</PackagePath>
+      <Modified>2015-08-05T15:51:03.670</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Xml.Serialization.dll">
+      <PackagePath>System.Xml.Serialization.dll</PackagePath>
+      <Modified>2015-08-05T15:50:58.078</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Xml.XDocument.dll">
+      <PackagePath>System.Xml.XDocument.dll</PackagePath>
+      <Modified>2015-08-05T15:51:03.573</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Xml.XmlDocument.dll">
+      <PackagePath>System.Xml.XmlDocument.dll</PackagePath>
+      <Modified>2015-08-05T15:50:57.405</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\System.Xml.XmlSerializer.dll">
+      <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
+      <Modified>2015-08-05T15:50:58.725</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Well Played.exe">
+      <PackagePath>Well Played.exe</PackagePath>
+      <Modified>2015-11-19T07:47:35.179</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\Well Played.xr.xml">
+      <PackagePath>Well Played.xr.xml</PackagePath>
+      <Modified>2015-11-19T07:47:29.660</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\OneDrive\Documents\Coding\Well Played%28Recode%29\Well Played\Well Played\bin\x64\Debug\Core\WinMetadata\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2015-11-05T06:46:33.003</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\">
+      <Name>Microsoft.NET.CoreRuntime.1.0</Name>
+      <Version>1.0.23302.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.0, MinVersion = 1.0.23302.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\.\AppX\ARM\Microsoft.NET.CoreRuntime.1.0.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\">
+      <Name>Microsoft.NET.CoreRuntime.1.0</Name>
+      <Version>1.0.23302.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.0, MinVersion = 1.0.23302.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\.\AppX\x64\Microsoft.NET.CoreRuntime.1.0.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\">
+      <Name>Microsoft.NET.CoreRuntime.1.0</Name>
+      <Version>1.0.23302.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.0, MinVersion = 1.0.23302.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.0\.\AppX\x86\Microsoft.NET.CoreRuntime.1.0.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.23019.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.23019.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.23019.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.23019.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.23019.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.23019.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

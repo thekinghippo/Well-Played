@@ -1,0 +1,6 @@
+obj\ARM\Release\Upload\filemap.pri
+obj\ARM\Release\Upload\filemap.map.txt
+obj\ARM\Release\Upload\filemap.scale-100.pri
+obj\ARM\Release\Upload\filemap.scale-100.map.txt
+obj\ARM\Release\Upload\filemap.scale-400.pri
+obj\ARM\Release\Upload\filemap.scale-400.map.txt

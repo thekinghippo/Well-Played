@@ -1,0 +1,2 @@
+MainPackage=C:\Users\Mark\OneDrive\Documents\Coding\Well Played(v0.00.038)\Well Played\bin\x86\Release\Well Played_1.4.4.0_x86.appx
+SymbolPackage=C:\Users\Mark\OneDrive\Documents\Coding\Well Played(v0.00.038)\Well Played\AppPackages\Well Played_1.4.4.0_Test\Well Played_1.4.4.0_x86.appxsym
