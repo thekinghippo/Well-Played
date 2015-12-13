@@ -41,5 +41,6 @@ The application is available for download through the windows store. Currently y
 ![alt tag](https://github.com/thekinghippo/Well-Played/blob/master/Pictures/Low%20Res/08.png)
 <br><br>
 - Currently, there aren't actually any settings in the app, but the "Settings/About" page prominently displayed RIOT's disclaimer and will house options in the future.<br>
-![alt tag](https://github.com/thekinghippo/Well-Played/blob/master/Pictures/Low%20Res/10.png)<br>
+![alt tag](https://github.com/thekinghippo/Well-Played/blob/master/Pictures/Low%20Res/10.png)
+<br><br>
 - You may be wondering where the "Summoner Lookup" button goes. It's virtually identical to the "Summoner" page except it's meant for others. This concludes our tour! :D
