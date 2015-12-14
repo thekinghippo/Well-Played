@@ -13,7 +13,7 @@ namespace Well_Played.Facades
 {
     class ItemFacade
     {
-        private const string apikey = "b2d88c91-7e1f-4ffb-87b9-6052306595c4";
+        private const string apikey = "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX";
 
         //public static async Task<Dictionary<string, Well_Played.Models.Item>> GetItemList()
         public static async Task<Well_Played.Models.ItemList> GetItemList()
