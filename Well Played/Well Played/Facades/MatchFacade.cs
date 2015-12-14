@@ -12,7 +12,7 @@ namespace Well_Played.Facades
 {
     class MatchFacade
     {
-        private const string apikey = "b2d88c91-7e1f-4ffb-87b9-6052306595c4";
+        private const string apikey = "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX";
 
         public static async Task<Well_Played.Models.MatchList> GetMatchList( string SummonerID )
         {
