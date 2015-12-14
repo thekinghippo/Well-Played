@@ -14,7 +14,7 @@ namespace Well_Played.Facades
 {
     class SpellFacade
     {
-        private const string apikey = "b2d88c91-7e1f-4ffb-87b9-6052306595c4";
+        private const string apikey = "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX";
 
         //Retrieves summoner spell id, description, name, image {w, full, sprite, group, h, y, x}, key, summonerLevel
         public static async Task<Well_Played.Models.SpellList> GetPartialSpellList()
